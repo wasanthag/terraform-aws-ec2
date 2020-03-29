@@ -4,6 +4,6 @@ resource "aws_instance" "exam" {
   key_name      = var.key_pair
 
   tags = {
-    version = "1.0.1"
+    version = "v1.0.1"
   }
 }
