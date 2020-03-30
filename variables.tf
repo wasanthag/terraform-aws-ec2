@@ -12,4 +12,5 @@ variable "inst_type" {
 }
 variable "key_pair" {
   description = "key pair name"
+  default     = "terraform"
 }
