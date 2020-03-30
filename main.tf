@@ -1,3 +1,8 @@
+provider "aws" {
+  region  = var.region
+  version = "~> 2.54.0"
+}
+
 resource "aws_instance" "exam" {
   ami           = var.ami_id
   instance_type = var.inst_type
